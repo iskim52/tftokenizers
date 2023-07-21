@@ -39,6 +39,7 @@ class TFModel(keras.layers.Layer):
         self.tokenizer = tokenizer
         self.model = model
 
+    @tf.function(input_signature=(tf.TensorSpec(shape=[None], dtype=tf.string),))
     def call(
         self,
         inputs,
