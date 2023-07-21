@@ -9,7 +9,7 @@ readme = 'README.md'
 keywords = ['huggingface', 'transformers', 'tokenizers', 'tensorflow', 'text']
 
 [tool.poetry.dependencies]
-python = ">=3.7,<3.10"
+python = "^3.8"
 sentencepiece = "^0.1.92"
 tensorflow = "^2.5.0"
 tensorflow-text = "^2.5.0"
